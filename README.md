@@ -13,19 +13,31 @@ python3 genepathrx.py drug_file vulnerability_file
 
 
 Output files:
+
 TVIS_results_drugx.txt - Description of drug x target genes with every other genes in the gene interaction graph
+
 FINAL_results_drugx.txt - TVIR scores and overall DTCS score of drug x
+
 DTCR_results_drugx.txt - Overall DTCR score and DTCS scores of background calculations
 
 
 Needed files:
+
 NCBI_gene_symbols.txt - List of genes in the gene interaction network
+
 parsed_DGIDB.txt - Drug-target interactions of DGIdb (v4.0)
+
 gene_interaction_network.pickle - Gene-gene interaction network from KEGG pathway database
 
 
+
 Contact:
+
 Szabolcs Tarapcsak, PhD
+
 szabolcs.tarapcsak@genetics.utah.edu
+
 Eccles Institute of Human Genetics
+
 University of Utah, Salt Lake City, UT
+
