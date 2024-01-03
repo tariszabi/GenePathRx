@@ -14,13 +14,14 @@ To run GenePathRx in the terminal, python3 is needed:
 ```
 python3 genepathrx.py /path/to/drug_file path/to/vulnerability_file /output/folder/path
 ```
-To test if GenePathRx is running on your machine, download the genepathrx folder on your machine and run the following lines of code:
+To test if GenePathRx is running on your machine, download the genepathrx folder and run the following lines of code:
 ```
 cd genepathrx
 python3 genepathrx.py ./test/test_drug_file.txt .test/test_vulnerability_file.txt ./test
 ```
 
 ## Output files:
+You can see examples in the sample_output_files folder:
 - **TVIS_results_drugx.txt** &emsp;_Description of interaction paths of drug x target genes with every other genes in the gene interaction graph_
 - **FINAL_results_drugx.txt** &emsp;_TVIR scores and overall DTCS scores of drug x_
 - **DTCR_results_drugx.txt** &emsp;_Overall DTCR score and DTCS scores of background calculations_
