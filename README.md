@@ -5,7 +5,10 @@
 **Due to its simple and explicit model, GenePathRx is readily applicable to any data (e.g. cell lines, PDO, PDX) and can provide reliable predictions of drug sensitivity for targeted- and chemotherapy drugs alike. Moreover, GenePathRx can be further utilized to understand the working mechanism of drugs through pathway analysis and has the potential to be used as a computational tool for biomarker discovery.** 
 
 ## Running:
-**python3 genepathrx.py drug_file vulnerability_file**
+To run GenePathRx in the command line terminal python3 is needed:
+```
+python3 genepathrx.py drug_file vulnerability_file
+```
 
 ## Output files:
 | FILE                   | DESCRIPTION                                                                                  |
