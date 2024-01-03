@@ -29,7 +29,7 @@ python3 genepathrx.py drug_file.txt vulnerability_file.txt
 | **FINAL_results_drugx.txt**| TVIR scores and overall DTCS scores of drug x                                                               |
 | **DTCR_results_drugx.txt** | Overall DTCR score and DTCS scores of background calculations                                               |
 
-## Necessary files to run GenePathRx in the same path as genepathrx.py:
+## Necessary files to run GenePathRx in the same folder as genepathrx.py:
 | FILE                   | DESCRIPTION                                                      |
 |------------------------|------------------------------------------------------------------|
 | **NCBI_gene_symbols.txt** | List of genes in the gene interaction network|
@@ -40,4 +40,4 @@ python3 genepathrx.py drug_file.txt vulnerability_file.txt
 **Szabolcs Tarapcsak, PhD**<br>
 _**szabolcs.tarapcsak@genetics.utah.edu**_<br>
 _Eccles Institute of Human Genetics_<br>
-_University of Utah, Salt Lake City, UT_<br>
+_University of Utah, Salt Lake City, UT, USA_<br>
