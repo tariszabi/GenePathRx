@@ -34,5 +34,6 @@ You can see examples in the sample_output_files folder:
 ## Contact:
 **Szabolcs Tarapcsak, PhD**<br>
 _**szabolcs.tarapcsak@servier.com**_<br>
+Developed at:<br>
 _Eccles Institute of Human Genetics_<br>
 _University of Utah, Salt Lake City, UT, USA_<br>
