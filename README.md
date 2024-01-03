@@ -21,14 +21,14 @@ python3 genepathrx.py ./test/test_drug_file.txt .test/test_vulnerability_file.tx
 ```
 
 ## Output files:
-- **TVIS_results_drugx.txt** _Description of interaction paths of drug x target genes with every other genes in the gene interaction graph_
-- **FINAL_results_drugx.txt** _TVIR scores and overall DTCS scores of drug x_
-- **DTCR_results_drugx.txt** _Overall DTCR score and DTCS scores of background calculations_
+- **TVIS_results_drugx.txt** &emsp;_Description of interaction paths of drug x target genes with every other genes in the gene interaction graph_
+- **FINAL_results_drugx.txt** &emsp;_TVIR scores and overall DTCS scores of drug x_
+- **DTCR_results_drugx.txt** &emsp;_Overall DTCR score and DTCS scores of background calculations_
 
 ## Necessary files to run GenePathRx in the same folder as genepathrx.py:
-- **NCBI_gene_symbols.txt** _List of genes in the gene interaction network_
-- **parsed_DGIDB.txt** _Drug-target interactions of DGIdb (v4.0)_
-- **gene_interaction_network.pickle** _Gene-gene interaction network from KEGG pathway database_
+- **NCBI_gene_symbols.txt** &emsp;_List of genes in the gene interaction network_
+- **parsed_DGIDB.txt** &emsp;_Drug-target interactions of DGIdb (v4.0)_
+- **gene_interaction_network.pickle** &emsp;_Gene-gene interaction network from KEGG pathway database_
 
 ## Contact:
 **Szabolcs Tarapcsak, PhD**<br>
