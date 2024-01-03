@@ -1,14 +1,24 @@
 # GenePathRx
 
 **A gene-gene interaction model-based drug sensitivity prediction algorithm using public database information and patient/cell line multi-omics data for predictions. GenePathRx was validated using the GDSC2 cancer cell line dataset as well as breast cancer patient-derived organoid data and has been demonstrated to provide high accuracy predictions.**
-/
 **Due to its simple and explicit model, GenePathRx is readily applicable to any data (e.g. cell lines, PDO, PDX) and can provide reliable predictions of drug sensitivity for targeted- and chemotherapy drugs alike. Moreover, GenePathRx can be further utilized to understand the working mechanism of drugs through pathway analysis and has the potential to be used as a computational tool for biomarker discovery.** 
 
 ## Running:
-To run GenePathRx in the command line terminal python3 is needed:
+Before running GenePathRx make sure NetworkX is installed:
 ```
-python3 genepathrx.py drug_file vulnerability_file
+pip install networkx
 ```
+To run GenePathRx in the terminal, python3 is needed:
+```
+python3 genepathrx.py /path/to/drug_file path/to/vulnerability_file
+```
+To test if GenePathRx is running on your machine, download the necessary files in genepathrx folder and run the following lines of code:
+```
+mkdir genepathrx
+cd genepathrx
+python3 genepathrx.py drug_file.txt vulnerability_file.txt
+```
+
 
 ## Output files:
 | FILE                   | DESCRIPTION                                                                                  |
