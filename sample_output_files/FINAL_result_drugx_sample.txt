@@ -1,10 +1,9 @@
-Calculated drug-vulnerability interaction score (DVCS) for drug x:
+Calculated Drug-Tumor Correlation Score (DTCS) for drug x:
 
-Sum of DVCS Scores: 9.439841339797267
-Sum of normalized DVCS Scores: 0.0
-Target normalized DVCS Score: 2.359960334949317
-Average DVCS Score: 0.47199206698986335
-Median DVCS Score: 0.3956221536653445
+DTCS Score: 9.439841339797267
+DGIdb Interaction Score normalized DTCS Score: 2.359960334949317
+Average TVIR Score: 0.47199206698986335
+Median TVIR Score: 0.3956221536653445
 
 Calculated TVIR scores for drug x:
 
