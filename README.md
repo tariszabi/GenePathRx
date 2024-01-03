@@ -1,8 +1,9 @@
 # GenePathRx
 
-**A gene-gene interaction model-based drug sensitivity prediction algorithm using public database information and patient/cell line multi-omics data for predictions. GenePathRx was validated using the GDSC2 cancer cell line dataset as well as breast cancer patient-derived organoid data and has been demonstrated to provide high accuracy predictions.**<br>
+**A gene-gene interaction model-based drug sensitivity prediction algorithm using public database information and tumor/patient-derived organoid/cell-line multi-omics data for predictions. GenePathRx was validated using the GDSC2 cancer cell line dataset as well as breast cancer patient-derived organoid data and has been demonstrated to provide high accuracy predictions.**<br>
+_See: Tarapcsak et al. - GenePathRx: Model-based cancer therapy selection by linking genomic and transcriptomic tumor vulnerabilities to drug mechanisms._<br>
 
-**Due to its simple and explicit model, GenePathRx is readily applicable to any data (e.g. cell lines, PDO, PDX) and can provide reliable predictions of drug sensitivity for targeted- and chemotherapy drugs alike. Moreover, GenePathRx can be further utilized to understand the working mechanism of drugs through pathway analysis and has the potential to be used as a computational tool for biomarker discovery.** 
+**Due to its simple and explicit model, GenePathRx is readily applicable to any data (e.g. cell-lines, PDO, PDX, patient tumor) and can provide reliable predictions of drug sensitivity for targeted- and chemotherapy drugs alike (using DGIdb). Moreover, GenePathRx can be further utilized to understand the working mechanism of drugs through pathway analysis (using KEGG pathway database) and has the potential to be used as a computational tool for biomarker discovery.** 
 
 ## Running:
 Before running GenePathRx make sure NetworkX is installed:
@@ -36,7 +37,7 @@ python3 genepathrx.py drug_file.txt vulnerability_file.txt
 | **gene_interaction_network.pickle** | Gene-gene interaction network from KEGG pathway database|
 
 ## Contact:
-**Szabolcs Tarapcsak, PhD**
-_**szabolcs.tarapcsak@genetics.utah.edu**_
-_Eccles Institute of Human Genetics_
-_University of Utah, Salt Lake City, UT_
+**Szabolcs Tarapcsak, PhD**<br>
+_**szabolcs.tarapcsak@genetics.utah.edu**_<br>
+_Eccles Institute of Human Genetics_<br>
+_University of Utah, Salt Lake City, UT_<br>
