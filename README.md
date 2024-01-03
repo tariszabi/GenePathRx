@@ -8,11 +8,11 @@ Due to its simple and explicit model, GenePathRx is readily applicable to any da
 python3 genepathrx.py drug_file vulnerability_file
 
 ## Output files:
-|          FILE         | Description                                                                                                 |
-|----------------------:|-------------------------------------------------------------------------------------------------------------|
-| TVIS_results_drugx.txt| Description of interaction paths of drug x target genes with every other genes in the gene interaction graph|
-|FINAL_results_drugx.txt| TVIR scores and overall DTCS scores of drug x                                                               |
-| DTCR_results_drugx.txt| Overall DTCR score and DTCS scores of background calculations                                               |
+| FILE                   | Description                                                                                  |
+|-----------------------:|----------------------------------------------------------------------------------------------|
+| TVIS_results_drugx.txt | Description of interaction paths of drug x target genes with every other genes in the gene interaction graph|
+| FINAL_results_drugx.txt| TVIR scores and overall DTCS scores of drug x                                                               |
+| DTCR_results_drugx.txt | Overall DTCR score and DTCS scores of background calculations                                               |
 
 ## Necessary files to run GenePathRx in the same path as genepathrx.py:
 NCBI_gene_symbols.txt - List of genes in the gene interaction network
