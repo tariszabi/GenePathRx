@@ -12,13 +12,14 @@ pip install networkx
 ```
 To run GenePathRx in the terminal, python3 is needed:
 ```
-python3 genepathrx.py /path/to/drug_file path/to/vulnerability_file
+python3 genepathrx.py /path/to/drug_file path/to/vulnerability_file /output/folder/path
 ```
 To test if GenePathRx is running on your machine, download the necessary files in genepathrx folder and run the following lines of code:
 ```
 mkdir genepathrx
 cd genepathrx
-python3 genepathrx.py drug_file.txt vulnerability_file.txt
+mkdir test
+python3 genepathrx.py ./test/drug_file.txt .test/vulnerability_file.txt ./test
 ```
 
 
