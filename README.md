@@ -1,6 +1,7 @@
 # GenePathRx
 
-**A gene-gene interaction model-based drug sensitivity prediction algorithm using public database information and patient/cell line multi-omics data for predictions. GenePathRx was validated using the GDSC2 cancer cell line dataset as well as breast cancer patient-derived organoid data and has been demonstrated to provide high accuracy predictions.**
+**A gene-gene interaction model-based drug sensitivity prediction algorithm using public database information and patient/cell line multi-omics data for predictions. GenePathRx was validated using the GDSC2 cancer cell line dataset as well as breast cancer patient-derived organoid data and has been demonstrated to provide high accuracy predictions.**    
+
 **Due to its simple and explicit model, GenePathRx is readily applicable to any data (e.g. cell lines, PDO, PDX) and can provide reliable predictions of drug sensitivity for targeted- and chemotherapy drugs alike. Moreover, GenePathRx can be further utilized to understand the working mechanism of drugs through pathway analysis and has the potential to be used as a computational tool for biomarker discovery.** 
 
 ## Running:
