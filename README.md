@@ -10,7 +10,7 @@ Before running GenePathRx make sure NetworkX is installed (version 3.2.1):
 ```
 pip install networkx
 ```
-To run GenePathRx in the terminal, python3 is needed:
+GenePathRx can be run using a single line of python code (python3 is needed):
 ```
 python3 genepathrx.py /path/to/drug_file path/to/vulnerability_file /output/folder/path/name num_of_background_dist_values
 ```
