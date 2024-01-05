@@ -38,11 +38,13 @@ You can see examples in the sample_output_files folder:
 - **DTCS_results_drugx.txt** &emsp;_- TVIR statistics and DTCS score of drug x_
 - **DTCR_results_drugx.txt** &emsp;_- DTCR score and DTCS scores of background calculations_
 <br>
-## Necessary files to run GenePathRx in the same folder as genepathrx.py:
+
+## Necessary files to run GenePathRx:
 - **NCBI_gene_symbols.txt** &emsp;_- List of genes in the gene interaction network_
 - **parsed_DGIDB.txt** &emsp;_- Drug-target interactions of DGIdb (v4.0)_
 - **gene_interaction_network.pickle** &emsp;_- Gene-gene interaction network from KEGG pathway database_
 <br>
+
 ## Contact:
 **Szabolcs Tarapcsak, PhD**<br>
 _**szabolcs.tarapcsak@servier.com**_<br>
