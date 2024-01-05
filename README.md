@@ -32,10 +32,10 @@ Each calculation take ~ 10 min to finish.
 DTCR scores will be calculated using a background distribution of 500 random samples. Due to random sampling, the calculated DTCR scores might differ from DTCR scores in the sample output files.
 <br>
 
-## Output files:
+## Input files:
 You can see examples in the sample_output_files folder:
 - **drug_file.txt** &emsp;_- Name of the drug/drugs to be analyzed from DGIdb. Each line in the input file is one drug name_
-- **vulenrability_file.txt** &emsp;_- Name of the genes identified as genomic/transcriptomic vulnerabilites (vulnerabilities are identified by the user). Each line in the input file is one gene name (NCBI)_
+- **vulnerability_file.txt** &emsp;_- Name of the genes identified as genomic/transcriptomic vulnerabilites (vulnerabilities are identified by the user). Each line in the input file is one gene name (NCBI)_
 <br>
 
 ## Output files:
