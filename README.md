@@ -33,7 +33,7 @@ DTCR scores will be calculated using a background distribution of 500 random sam
 <br>
 
 ## Input files:
-You can see examples in the sample_output_files folder:
+You can see examples in the responder_patient_test and non_responder_patient_test folders:
 - **drug_file.txt** &emsp;_- Name of the drug/drugs to be analyzed from DGIdb. Each line in the input file is one drug name_
 - **vulnerability_file.txt** &emsp;_- Name of the genes identified as genomic/transcriptomic vulnerabilites (vulnerabilities are identified by the user). Each line in the input file is one gene name (NCBI)_
 <br>
@@ -45,7 +45,7 @@ You can see examples in the sample_output_files folder:
 - **DTCR_results_drugx.txt** &emsp;_- DTCR score and DTCS scores of background calculations_
 <br>
 
-## Necessary files to run GenePathRx:
+## Necessary files to run GenePathRx (in genepathrx folder):
 - **NCBI_gene_symbols.txt** &emsp;_- List of genes in the gene interaction network_
 - **parsed_DGIDB.txt** &emsp;_- Drug-target interactions of DGIdb (v4.0)_
 - **gene_interaction_network.pickle** &emsp;_- Gene-gene interaction network from KEGG pathway database_
