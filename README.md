@@ -34,6 +34,12 @@ DTCR scores will be calculated using a background distribution of 500 random sam
 
 ## Output files:
 You can see examples in the sample_output_files folder:
+- **drug_file.txt** &emsp;_- Name of the drug/drugs to be analyzed from DGIdb. Each line in the input file is one drug name_
+- **vulenrability_file.txt** &emsp;_- Name of the genes identified as genomic/transcriptomic vulnerabilites (vulnerabilities are identified by the user). Each line in the input file is one gene name (NCBI)_
+<br>
+
+## Output files:
+You can see examples in the sample_output_files folder:
 - **TVIS_results_drugx.txt** &emsp;_- Description of interaction paths of drug x target genes with every other genes in the gene interaction graph_
 - **DTCS_results_drugx.txt** &emsp;_- TVIR statistics and DTCS score of drug x_
 - **DTCR_results_drugx.txt** &emsp;_- DTCR score and DTCS scores of background calculations_
