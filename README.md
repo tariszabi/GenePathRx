@@ -14,6 +14,8 @@ GenePathRx can be run using a single line of python code (python3 is needed):
 ```
 python3 genepathrx.py /path/to/drug_file path/to/vulnerability_file output_folder_name num_of_background_dist_values
 ```
+<br>
+## Testing:
 To test if GenePathRx is running on your machine, download the genepathrx folder and run the following lines of code on two patient samples in non_responder_patient_test and responder_patient_test folders.
 In this examples, you calculate DTCR scores for a targeted drug, M3814. M3814 is a DNA-dependent protein kinase (DNA-PK) inhibitor that has one target gene in DGIdb, PRKDC, the catalytic subunit of DNA-PK.
 To run GenePathRx on the M3814 sensitive patient sample, use the following code:
@@ -27,19 +29,19 @@ python3 genepathrx.py ./non_responder_patient_test/M3814.txt ./non_responder_pat
 ```
 Each calculation take ~ 10 min to finish.
 DTCR scores will be calculated using a background distribution of 500 random samples. Due to random sampling, the calculated DTCR scores might differ from DTCR scores in the sample output files.
-
+<br>
 
 ## Output files:
 You can see examples in the sample_output_files folder:
 - **TVIS_results_drugx.txt** &emsp;_- Description of interaction paths of drug x target genes with every other genes in the gene interaction graph_
 - **DTCS_results_drugx.txt** &emsp;_- TVIR statistics and DTCS score of drug x_
 - **DTCR_results_drugx.txt** &emsp;_- DTCR score and DTCS scores of background calculations_
-
+<br>
 ## Necessary files to run GenePathRx in the same folder as genepathrx.py:
 - **NCBI_gene_symbols.txt** &emsp;_- List of genes in the gene interaction network_
 - **parsed_DGIDB.txt** &emsp;_- Drug-target interactions of DGIdb (v4.0)_
 - **gene_interaction_network.pickle** &emsp;_- Gene-gene interaction network from KEGG pathway database_
-
+<br>
 ## Contact:
 **Szabolcs Tarapcsak, PhD**<br>
 _**szabolcs.tarapcsak@servier.com**_<br>
