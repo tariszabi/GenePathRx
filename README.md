@@ -12,13 +12,22 @@ pip install networkx
 ```
 GenePathRx can be run using a single line of python code (python3 is needed):
 ```
-python3 genepathrx.py /path/to/drug_file path/to/vulnerability_file /output/folder/path/name num_of_background_dist_values
+python3 genepathrx.py /path/to/drug_file path/to/vulnerability_file output_folder_name num_of_background_dist_values
 ```
-To test if GenePathRx is running on your machine, download the genepathrx folder and run the following lines of code:
+To test if GenePathRx is running on your machine, download the genepathrx folder and run the following lines of code on two patient samples in non_responder_patient_test and responder_patient_test folders.
+In this examples, you calculate DTCR scores for a targeted drug, M3814. M3814 is a DNA-dependent protein kinase (DNA-PK) inhibitor that has one target gene in DGIdb, PRKDC, the catalytic subunit of DNA-PK.
+To run GenePathRx on the M3814 sensitive patient sample, use the following code:
 ```
 cd genepathrx
-python3 genepathrx.py ./test/test_drug_file.txt .test/test_vulnerability_file.txt test_sample 500
+python3 genepathrx.py ./responder_patient_test/M3814.txt ./responder_patient_test/responder_vulnerabilities.txt responder_patient_test 500
 ```
+And to run GenePathRx on the M3814 non-responder patient sample:
+```
+python3 genepathrx.py ./non_responder_patient_test/M3814.txt ./non_responder_patient_test/non_responder_vulnerabilities.txt non_responder_patient_test 500
+```
+Each calculation take ~ 10 min to finish.
+DTCR scores will be calculated using a background distribution of 500 random samples. Due to random sampling, the calculated DTCR scores might differ from DTCR scores in the sample output files.
+
 
 ## Output files:
 You can see examples in the sample_output_files folder:
